@@ -5,7 +5,6 @@ display:flexbox
 .container{
     display: flex;
     justify-content:center;
-    border: 2px black solid;
     padding: 10px;
     column-gap: 7px;
 }
