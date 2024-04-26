@@ -1,0 +1,17 @@
+h2{
+    text-align: center; /* centralizando o texto "Meus Estudos"*/
+}
+
+.botao{
+    max-width: 768px; /*largura maxima para tablet*/
+    background-color: brown; /* Cor de fundo*/
+    margin: 10px auto; /* -> Altura | auto -> largura ( centraliza)*/
+    display: block; /* Converte tag de texto em estrutura de div */
+    color: white; 
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+
+}
