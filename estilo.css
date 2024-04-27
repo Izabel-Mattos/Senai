@@ -7,11 +7,12 @@ h2{
     background-color: brown; /* Cor de fundo*/
     margin: 10px auto; /* -> Altura | auto -> largura ( centraliza)*/
     display: block; /* Converte tag de texto em estrutura de div */
-    color: white; 
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px 0;
-    border-radius: 10px;
-
+    color: white; /*cor da letra*/
+    text-decoration: none; /* texto sem fortação*/
+    font-size: 20px; /*tamanho da fonte*/
+    text-align: center;/*alinhamento do texto centralizado*/
+    padding: 20px 0; /* espaçamento interno da tag*/
+    border-radius: 10px; /* arredondamento da borda da tag*/
+    
 }
+
