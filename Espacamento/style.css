@@ -1,0 +1,26 @@
+.black{
+    width: 400px; /*largunra*/
+    height:400px;/*altura*/
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    margin: 30px;
+  }
+  .white{
+    width: 400px; 
+    height:400px;
+    color: #333;
+    border: 1px #000 solid; /*espessura da borda, cor da borda, tipo de borda */   
+    padding: 30px;/*espaçamento interno em todos os lados da div*/
+    margin: 30px;/*espaçamento externo em todos os lados da div*/
+  }
+
+.container{
+  width: 1024px;
+  height: 0 auto;
+  display: flex;
+  
+
+
+}
+  
