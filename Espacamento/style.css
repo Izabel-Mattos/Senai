@@ -20,4 +20,12 @@
   margin: 0 auto;
   display: flex;
 }
+
+/*Configuração menor que 1024px de largura*/
+
+@media screen and{ (max-width: 1024px;)
+  .container{
+    flex-direction: column; /*direção dos conteúdos do display:flex*/
+  }
+}
   
