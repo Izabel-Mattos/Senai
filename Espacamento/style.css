@@ -23,9 +23,9 @@
 
 /*Configuração menor que 1024px de largura*/
 
-@media screen and{ (max-width: 1024px;)
+@media screen and (max-width:1024px){
   .container{
     flex-direction: column; /*direção dos conteúdos do display:flex*/
+    
   }
 }
-  
