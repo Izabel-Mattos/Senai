@@ -17,10 +17,7 @@
 
 .container{
   max-width:1024px;
-  height: 0 auto;
+  margin: 0 auto;
   display: flex;
-
-
-
 }
   
