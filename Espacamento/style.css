@@ -1,6 +1,5 @@
 .black{
-    display: flex;
-    width: 400px; /*largunra*/
+    max-width: 400px; /*largunra*/
     height:400px;/*altura*/
     background-color: #000;
     color: #fff;
@@ -9,8 +8,7 @@
        
   }
   .white{
-    display: flex;
-    width: 400px; 
+    max-width: 400px; 
     height:400px;
     color: #333;
     border: 1px #000 solid; /*espessura da borda, cor da borda, tipo de borda */   
@@ -22,9 +20,7 @@
 .container{
   max-width:1024px;
   margin: 0 auto;
-  display: flex;
-  text-shadow: ;
-  
+  display: flex;  
 }
 
 /*Configuração menor que 1024px de largura*/
@@ -32,9 +28,10 @@
 @media screen and (max-width:1024px){
   .container{
     flex-direction: column; /*direção dos conteúdos do display:flex*/
-    }
-}
+  }
   .black, .white{
-    max-width: 100%;
+      max-width: 100%;
+  }
 }
+  
   
