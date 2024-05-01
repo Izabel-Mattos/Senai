@@ -6,7 +6,7 @@
     color: #fff;
     padding: 30px;
     margin: 30px;
-   
+       
   }
   .white{
     display: flex;
@@ -16,12 +16,14 @@
     border: 1px #000 solid; /*espessura da borda, cor da borda, tipo de borda */   
     padding: 30px;/*espaçamento interno em todos os lados da div*/
     margin: 30px;/*espaçamento externo em todos os lados da div*/
+   
   }
 
 .container{
   max-width:1024px;
   margin: 0 auto;
   display: flex;
+  text-shadow: ;
   
 }
 
@@ -30,6 +32,9 @@
 @media screen and (max-width:1024px){
   .container{
     flex-direction: column; /*direção dos conteúdos do display:flex*/
-    
-  }
+    }
 }
+  .black, .white{
+    max-width: 100%;
+}
+  
