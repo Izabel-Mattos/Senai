@@ -11,14 +11,20 @@
 }
 
 @media screen and (max-width:1024px){
-    
-    .pai{       
+    .pai{
+       
     flex-direction: column; /*direção dos conteúdos do display:flex*/
     }
    
-    .filho{     
+    .filho{
+     
     max-width: 100%;
+    text-align: center;
+
     }
 
     }
  
+    img{
+        width: 100%;
+    }
