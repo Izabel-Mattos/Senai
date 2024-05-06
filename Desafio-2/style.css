@@ -1,33 +1,33 @@
  #sessao{
     background-color: black;
-    color: white;
-    max-width: ;
-    height: auto;
-
+     
 }
 
 .container{
     max-width: 1024px;
+    color: white;
     display: flex;
-    justify-content:center;
-    padding: 10px;
-    column-gap: 7px;
+    margin: 0 auto;
 
 }
 
 .box{
     display: flex;
-    max-width: 400px;
+    max-width: 330px;
+    margin: 50px 25px 0;
     border-radius: 8px;
     padding-bottom: 20px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly
+    text-align: center;
+
 }
 
 .box img{
-    display: flex;
-    width: 100%;
-    justify-content:space-evenly;
+    width: 330px;
+    height: 330px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .box h2{
@@ -51,23 +51,26 @@
     text-decoration: none;
     text-align: center;
     width: 100px;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 10px 20px;
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 20px;
+    border-radius: 15px;
     }
 
-    @media screen and (max-width:1024px)
-        #sessao{       
-         flex-direction: column; 
+    @media screen and (max-width:1024px){
+
+        .container{
+            flex-direction: column;
+            }
+            .box{
+                justify-content: center;
+                max-width: 100%;
+            }
+
+    }
    
-        .container{     
-        max-width: 100%;
-        text-align: center;
-        }
 
-    }
+  
     
-    img{
-    width: 100%;
-    }
+
